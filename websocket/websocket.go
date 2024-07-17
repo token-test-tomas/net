@@ -9,7 +9,7 @@
 // and more actively maintained WebSocket package:
 //
 //	https://pkg.go.dev/nhooyr.io/websocket
-package websocket // import "golang.org/x/net/websocket"
+package websocket // import "github.com/token-test-tomas/net/websocket"
 
 import (
 	"bufio"

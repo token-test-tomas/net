@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/ipv6"
-	"golang.org/x/net/nettest"
+	"github.com/token-test-tomas/net/ipv6"
+	"github.com/token-test-tomas/net/nettest"
 )
 
 var icmpStringTests = []struct {

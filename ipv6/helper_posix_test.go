@@ -11,7 +11,7 @@ import (
 	"os"
 	"syscall"
 
-	"golang.org/x/net/ipv6"
+	"github.com/token-test-tomas/net/ipv6"
 )
 
 func protocolNotSupported(err error) bool {

@@ -9,7 +9,7 @@ import (
 	"net"
 	"runtime"
 
-	"golang.org/x/net/internal/socket"
+	"github.com/token-test-tomas/net/internal/socket"
 )
 
 var (

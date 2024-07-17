@@ -6,9 +6,7 @@
 
 package socket
 
-import (
-	"net"
-)
+import "net"
 
 func (c *Conn) recvMsgs(ms []Message, flags int) (int, error) {
 	for i := range ms {

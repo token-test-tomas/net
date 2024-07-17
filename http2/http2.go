@@ -13,7 +13,7 @@
 // See https://http2.github.io/ for more information on HTTP/2.
 //
 // See https://http2.golang.org/ for a test server running this code.
-package http2 // import "golang.org/x/net/http2"
+package http2 // import "github.com/token-test-tomas/net/http2"
 
 import (
 	"bufio"
@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/http/httpguts"
+	"github.com/token-test-tomas/net/http/httpguts"
 )
 
 var (

@@ -1,4 +1,4 @@
-module golang.org/x/net
+module github.com/token-test-tomas/net
 
 go 1.18
 

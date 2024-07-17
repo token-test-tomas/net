@@ -11,7 +11,7 @@ import (
 	"os"
 	"syscall"
 
-	"golang.org/x/net/ipv4"
+	"github.com/token-test-tomas/net/ipv4"
 )
 
 func protocolNotSupported(err error) bool {

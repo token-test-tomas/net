@@ -10,7 +10,7 @@ import (
 	"log"
 	"strings"
 
-	"golang.org/x/net/html"
+	"github.com/token-test-tomas/net/html"
 )
 
 func ExampleParse() {

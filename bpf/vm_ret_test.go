@@ -7,7 +7,7 @@ package bpf_test
 import (
 	"testing"
 
-	"golang.org/x/net/bpf"
+	"github.com/token-test-tomas/net/bpf"
 )
 
 func TestVMRetA(t *testing.T) {

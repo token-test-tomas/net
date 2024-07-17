@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/nettest"
+	"github.com/token-test-tomas/net/internal/iana"
+	"github.com/token-test-tomas/net/ipv4"
+	"github.com/token-test-tomas/net/nettest"
 )
 
 func BenchmarkReadWriteUnicast(b *testing.B) {
@@ -122,7 +122,7 @@ func BenchmarkPacketConnReadWriteUnicast(b *testing.B) {
 				OOB:     ipv4.NewControlMessage(cf),
 			},
 		}
-		b.Run("Net", func(b *testing.B) {
+		b.Run("net2", func(b *testing.B) {
 			for i := 0; i < b.N; i++ {
 				if _, err := c.WriteTo(payload, dst); err != nil {
 					b.Fatal(err)
@@ -185,7 +185,7 @@ func BenchmarkPacketConnReadWriteUnicast(b *testing.B) {
 				OOB:     ipv4.NewControlMessage(cf),
 			},
 		}
-		b.Run("Net", func(b *testing.B) {
+		b.Run("net2", func(b *testing.B) {
 			for i := 0; i < b.N; i++ {
 				if _, err := c.WriteTo(datagram, dst); err != nil {
 					b.Fatal(err)

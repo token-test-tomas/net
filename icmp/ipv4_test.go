@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/internal/socket"
-	"golang.org/x/net/ipv4"
+	"github.com/token-test-tomas/net/internal/socket"
+	"github.com/token-test-tomas/net/ipv4"
 )
 
 func TestParseIPv4Header(t *testing.T) {

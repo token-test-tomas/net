@@ -9,8 +9,8 @@ package ipv4
 import (
 	"unsafe"
 
-	"golang.org/x/net/bpf"
-	"golang.org/x/net/internal/socket"
+	"github.com/token-test-tomas/net/bpf"
+	"github.com/token-test-tomas/net/internal/socket"
 	"golang.org/x/sys/unix"
 )
 

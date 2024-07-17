@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"testing"
 
-	"golang.org/x/net/internal/socket"
-	"golang.org/x/net/nettest"
+	"github.com/token-test-tomas/net/internal/socket"
+	"github.com/token-test-tomas/net/nettest"
 )
 
 func TestSocket(t *testing.T) {
@@ -369,9 +369,9 @@ func TestRace(t *testing.T) {
 package main
 import (
 	"log"
-	"net"
+	"net2"
 
-	"golang.org/x/net/ipv4"
+	"github.com/token-test-tomas/net/ipv4"
 )
 
 var g byte
@@ -404,9 +404,9 @@ func main() {
 package main
 import (
 	"log"
-	"net"
+	"net2"
 
-	"golang.org/x/net/ipv4"
+	"github.com/token-test-tomas/net/ipv4"
 )
 
 func main() {
